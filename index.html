@@ -14,34 +14,45 @@
     
     <style>
 	body {
+	  font-size: 18px; 
 	  background: #fff0da;
 	  font-family: 'Baloo Tamma 2', cursive;
 	}
 
 	#descricao {
+	  line-height: 1.3em;
 	  font-family: 'Dosis', sans-serif;
 	}
 
 	h1 {
-	  font-family: 'Zeyada', cursive;
+           font-size: 2em;
+           color: #800000;
+	   font-family: 'Zeyada', cursive;
 	}
+
+	.section-title {
+	   font-size: 1.3em;
+	   color: #800000;
+           line-height: 0em; 
+	 }
 
     </style> 
 
 </head>
 <body>
-    <h1>Ana Karine Rodrigues Pinto Moreira</h1>
     <img id="foto" src="imagens/perfil.jpeg" alt="Foto do perfil" width="150px">
+    <h1>Ana Karine Rodrigues Pinto Moreira</h1>
     
     <ul>
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#recomendo">Recomendo</a></li>
     </ul>
+    <br>
 
-    <h3 id="sobre">Sobre:</h3>
-        <p>Nacionalidade: Brasileira<br>
-	   Residência: Fortaleza, Ceará, Brasil</p>
+    <h3 id="sobre" class="section-title">Sobre:</h3>
+        <p>Nacionalidade: <em style="color: #363636;">Brasileira</em><br>
+	   Residência: <em style="color: #363636;">Fortaleza, Ceará, Brasil</em></p>
         <hr>
         <p id="descricao">Especialista em Eficiência Energética (Unifor), graduada em Engenharia Elétrica (UFC),<br>
            Técnica em Telecomunicações (IFCE) e, atualmente, no 1º ano de graduação em <br>
@@ -49,9 +60,9 @@
            Desenvolvimento Web Full-Stack na Trybe.</p>
         
         <p id="descricao">Acima de tudo, uma eterna aprendiz da VIDA...</p>
-        <p></p>
+        <br>
        
-    <h3 id="habilidades">Habilidades:</h3>
+    <h3 id="habilidades" class="section-title">Habilidades:</h3>
         <ul> 
             <li>Capacidade analítica</li>
             <li><strong>Comprometimento</strong></li>
@@ -59,10 +70,10 @@
             <li>Planejamento</li>
             <li>Relacionamento com clientes</li>
         </ul>
-        <p></p>
+        <br>
 
-    <h3 id="recomendo">Recomendo:</h3>
-    <a href="https://blog.betrybe.com/" target="_blank">Blog Trybe</a>
+    <h3 id="recomendo" class="section-title">Recomendo:</h3>
+    <a href="https://blog.betrybe.com/" target="_blank">Blog Trybe</a><br><br>
 
 <p><a href="#foto"><button>Voltar para o topo</button></a></p>
     
