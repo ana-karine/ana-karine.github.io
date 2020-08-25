@@ -1,0 +1,57 @@
+body {
+    font-size: 18px; 
+    background: #fff0da;
+    font-family: 'Baloo Tamma 2', cursive;
+  }
+
+  #descricao {
+    line-height: 1.3em;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  h1 {
+         font-size: 2em;
+         color: #800000;
+     font-family: 'Zeyada', cursive;
+  }
+
+  .section-title {
+     font-size: 1.3em;
+     color: #800000;
+         line-height: 0em; 
+   }
+
+  .hab-um { 
+      font-size: 1em;
+  }
+  
+  .hab-dois { 
+      font-size: 0.95em;
+  }
+
+  .hab-tres { 
+      font-size: 0.9em;
+  }
+
+  .hab-quatro { 
+      font-size: 0.85em;
+  }
+
+  .hab-cinco { 
+      font-size: 0.8em;
+  }
+
+  button {
+          color: #FFFF00;
+          font-family: 'Baloo Tamma 2', cursive;
+          font-size: 0.8em;
+          
+          background-color: #800000;
+          padding: 6px; 
+          border-radius: 20px;
+      }
+  
+  #foto {
+          border-radius: 50%;
+      }
+
