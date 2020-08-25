@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Ana Karine</title>
+    <link rel="stylesheet" href="style.css">
     
     <! -- Fonte para todo o site -->
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
@@ -11,109 +13,53 @@
 	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">	
     <! -- Fonte para o nome -->
     <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
-    
-    <style>
-	body {
-	  font-size: 18px; 
-	  background: #fff0da;
-	  font-family: 'Baloo Tamma 2', cursive;
-	}
-
-	#descricao {
-	  line-height: 1.3em;
-	  font-family: 'Dosis', sans-serif;
-	}
-
-	h1 {
-           font-size: 2em;
-           color: #800000;
-	   font-family: 'Zeyada', cursive;
-	}
-
-	.section-title {
-	   font-size: 1.3em;
-	   color: #800000;
-           line-height: 0em; 
-	 }
-
-	.hab-um { 
-	    font-size: 1em;
-	}
-	
-	.hab-dois { 
-	    font-size: 0.95em;
-	}
-
-	.hab-tres { 
-	    font-size: 0.9em;
-	}
-
-	.hab-quatro { 
-	    font-size: 0.85em;
-	}
-
-	.hab-cinco { 
-	    font-size: 0.8em;
-	}
-
-	button {
-            color: #FFFF00;
-            font-family: 'Baloo Tamma 2', cursive;
-            font-size: 0.8em;
-            
-            background-color: #800000;
-            padding: 6px; 
-            border-radius: 20px;
-        }
-	
-	#foto {
-            border-radius: 50%;
-        }
-
-    </style> 
-
 </head>
-<body>
-    <img id="foto" src="imagens/perfil.jpeg" alt="Foto do perfil" width="150px">
-    <h1>Ana Karine Rodrigues Pinto Moreira</h1>
-    
+
+<body>   
+
+<nav id="menu">
     <ul>
-        <li><a style="color: #483D8B; text-decoration: none;" href="#sobre">Sobre</a></li>
-        <li><a style="color: #483D8B; text-decoration: none;" href="#habilidades">Habilidades</a></li>
-        <li><a style="color: #483D8B; text-decoration: none;" href="#recomendo">Recomendo</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#recomendo">Recomendo</a></li>
     </ul>
-    <hr>
-    <br>
-   
-    <h3 id="sobre" class="section-title">Sobre:</h3>
+</nav> 
+
+<div class=”header-container”>
+    <div class="foto"><img id="foto" src="imagens/perfil.jpeg" alt="Foto do perfil" width="150px"></div>
+
+    <div class="sobre"><h2 id="sobre">Sobre:</h2>
         <p>Nacionalidade: <em style="color: #363636;">Brasileira</em><br>
-	   Residência: <em style="color: #363636;">Fortaleza, Ceará, Brasil</em></p>
+	       Residência: <em style="color: #363636;">Fortaleza, Ceará, Brasil</em></p>
         
-        <p id="descricao">Especialista em Eficiência Energética (Unifor), graduada em Engenharia Elétrica (UFC),<br>
+        <p>Especialista em Eficiência Energética (Unifor), graduada em Engenharia Elétrica (UFC),<br>
            Técnica em Telecomunicações (IFCE) e, atualmente, no 1º ano de graduação em <br>
            Sistemas de Informação pela Estácio e cursando o programa de formação em <br> 
            Desenvolvimento Web Full-Stack na Trybe.</p>
         
-        <p id="descricao">Acima de tudo, uma eterna aprendiz da VIDA...</p>
-        <br>
-       
-    <h3 id="habilidades" class="section-title">Habilidades:</h3>
-        <ul> 
-            <li class="hab-um">Capacidade analítica</li>
-            <li class="hab-dois"><strong>Comprometimento</strong></li>
-            <li class="hab-tres">Educação</li>
-            <li class="hab-quatro">Planejamento</li>
-            <li class="hab-cinco">Relacionamento com clientes</li>
-        </ul>
-        <br>
-
-    <h3 id="recomendo" class="section-title">Recomendo:</h3>
-    <a style="color: #008080; text-decoration: none;" href="https://blog.betrybe.com/" target="_blank">Blog Trybe</a><br><br>
-
-<br>
-<hr> 
-<p><a href="#foto"><button>Voltar para o topo</button></a></p>
+        <p>Acima de tudo, uma eterna aprendiz da VIDA...</p><br>
+    </div> 
+ 
+    <div class="nome"><h1>Ana Karine Rodrigues Pinto Moreira</h1></div>
+    
    
+          
+</div>
+       
+    <h3 id="habilidades">Habilidades:</h3>
+        <ol class="lista"> 
+            <li><strong>Capacidade analítica</strong></li>
+            <li>Comprometimento</li>
+            <li><strong>Educação</strong></li>
+            <li>Planejamento</li>
+            <li><strong>Relacionamento com clientes</strong></li>
+        </ol>
+        <br>
+
+    <h3 id="recomendo">Recomendo:</h3>
+    <a style="color: #008080; text-decoration: none; margin-left: 55px;" href="https://blog.betrybe.com/" target="_blank">Blog Trybe</a><br><br>
+
+<p><a href="#foto"><button>Voltar para o topo</button></a></p>
 
 </body>
 </html>
