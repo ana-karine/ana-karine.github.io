@@ -5,22 +5,28 @@ body {
 }
 
 .header-container { 
-    background-color: white;	
+    background-color: white;
+    
 }
 
 .foto { 
     border-radius: 50%;
+    float: left; 
 }
 
 .nome { 
     font-size: 2em;
     color: #800000;
 	font-family: 'Zeyada', cursive;	
+    clear: both;
 }
 
 .sobre { 
     line-height: 1.3em;
 	font-family: 'Dosis', sans-serif;
+    float: right;	
+    width: 70%;
+    margin-top: 10px; 
 }
 
 h3 {
