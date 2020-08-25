@@ -75,11 +75,10 @@ h3 {
     margin-left: 40px;
 }
 
-.hab-um { font-size: 1em; margin-left: 40px;}
-.hab-dois { font-size: 0.95em; margin-left: 40px;}
-.hab-tres { font-size: 0.9em; margin-left: 40px;}
-.hab-quatro { font-size: 0.85em; margin-left: 40px;}
-.hab-cinco { font-size: 0.8em; margin-left: 40px;}
+.lista { 
+    font-size: 1em; 
+    margin-left: 40px;
+}
 
 button {
     color: #FFFF00;
@@ -88,7 +87,7 @@ button {
     background-color: #800000;
     padding: 8px; 
     border-radius: 20px;
-    margin-left: 40px;
+    margin-left: 50%;
 }
     
 
