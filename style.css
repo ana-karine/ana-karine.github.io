@@ -1,6 +1,6 @@
 #menu ul {
     padding: 0px;
-    margin: 35px;
+    margin: 0px;
     background-color:#FFE4B5;
     list-style:none;	/* remover os marcadores */
 }
@@ -30,12 +30,14 @@
 
 
 body {
+    margin: 0px;
     font-size: 18px; 
     background: #fff0da;
     font-family: 'Baloo Tamma 2', cursive;
 }
 
 .header-container { 
+    margin-top: 115px;
     background-color: white;
     height: auto;
 }
@@ -44,7 +46,7 @@ body {
     background-color: #FFE4B5;
     border: 50%;
     float: left; 
-    margin-top: 10px;
+    margin-top: 60px;
     margin-left: 40px;
     padding: 10px 10px 0px 10px; 
 }
@@ -59,6 +61,7 @@ body {
 }
 
 .sobre { 
+    margin-top: 60px;
     line-height: 1.3em;
     font-family: 'Dosis', sans-serif;
     float: right;	
@@ -96,3 +99,32 @@ button {
     border: none;
     outline: none;
 }
+
+.rodape
+{
+    background-color: orange; 
+    padding-top: 25px;      
+    padding-bottom: 55px;
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+    color: white;
+    text-align: top; 
+}
+
+.icones li {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;  
+}
+
+ul.icones li{
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: top;
+}
+
+.dicas {
+    list-style: none;	 
+}	
+
+
