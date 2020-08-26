@@ -1,46 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Ana Karine</title>
-</head>
-<body>
-    <h1><em>Ana Karine Rodrigues Pinto Moreira</em></h1>
-    <img id="foto" src="imagens/perfil.jpeg" alt="Foto do perfil" width="150px">
+    <link rel="stylesheet" href="style.css">
     
+    <! -- Fonte para todo o site -->
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    <! -- Fonte para a descrição -->
+	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">	
+    <! -- Fonte para o nome -->
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+</head>
+
+<body>   
+
+<nav id="menu">
     <ul>
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#recomendo">Recomendo</a></li>
-    </ul>
+        <li><a href="#rede">Minha rede</a></li>
 
-    <h3 id="sobre">Sobre:</h3>
-        <p>Nacionalidade: Brasileira</p>
-        <p>Residência: Fortaleza, Ceará, Brasil</p>
-        <hr>
+    </ul>
+</nav> 
+
+<div class=”header-container”>
+    <div class="foto"><img id="foto" src="imagens/perfil.jpeg" alt="Foto do perfil" width="150px"></div>
+
+    <div class="sobre"><h2 id="sobre">Sobre:</h2>
+        <p>Nacionalidade: <em style="color: #363636;">Brasileira</em><br>
+	       Residência: <em style="color: #363636;">Fortaleza, Ceará, Brasil</em></p>
+        
         <p>Especialista em Eficiência Energética (Unifor), graduada em Engenharia Elétrica (UFC),<br>
            Técnica em Telecomunicações (IFCE) e, atualmente, no 1º ano de graduação em <br>
            Sistemas de Informação pela Estácio e cursando o programa de formação em <br> 
            Desenvolvimento Web Full-Stack na Trybe.</p>
-        <p></p>
-        <p>Acima de tudo, uma eterna aprendiz da VIDA...</p>
-        <p></p>
+        
+        <p>Acima de tudo, uma eterna aprendiz da VIDA...</p><br>
+    </div> 
+ 
+    <div class="nome"><h1>Ana Karine Rodrigues Pinto Moreira</h1></div>
+</div>
        
     <h3 id="habilidades">Habilidades:</h3>
-        <ul> 
-            <li>Capacidade analítica</li>
-            <li><strong>Comprometimento</strong></li>
-            <li>Educação</li>
+        <ol class="lista"> 
+            <li><strong>Capacidade analítica</strong></li>
+            <li>Comprometimento</li>
+            <li><strong>Educação</strong></li>
             <li>Planejamento</li>
-            <li>Relacionamento com clientes</li>
-        </ul>
-        <p></p>
+            <li><strong>Relacionamento com clientes</strong></li>
+        </ol>
+        <br>
 
     <h3 id="recomendo">Recomendo:</h3>
-    <a href="https://blog.betrybe.com/" target="_blank">Blog Trybe</a>
+    <a style="color: #008080; text-decoration: none; margin-left: 55px;" href="https://blog.betrybe.com/" target="_blank">Blog Trybe</a>
+    <br><br>
+
+    <h3 id="rede">Minha rede:</h3>
+    <footer class="rodape">
+        <ul class="icones">
+            <li><a href="https://www.linkedin.com/in/moreirakarine" target="_blank"><img src="icones/linkedin.png" alt="Icone do LinkedIn"></a></li>
+            <li><a href="https://github.com/ana-karine" target="_blank"><img src="icones/github.png" alt="Icone do GitHub"></a></li>
+            <li><a href="https://www.instagram.com/anamoreira.br" target="_blank"><img src="icones/instagram.png" alt="Icone do Instagram"></a></li>
+        </ul>
+        &copy; Ana Karine 2020  
+        </footer>
+    
 
 <p><a href="#foto"><button>Voltar para o topo</button></a></p>
-    
+
 </body>
 </html>
